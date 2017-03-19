@@ -8,10 +8,12 @@
     "@angular/router": "vendor._angular_router",
     "@angular/http": "vendor._angular_http",
     "@angular/forms": "vendor._angular_forms",
+    "@angular/material": "vendor._angular_material",
     "rxjs": "vendor.rxjs"
   },
   "styles": [
-    { "src": "src/styles/app.sass", "dest": "dist/css/app.css" }
+    { "src": "src/styles/app.scss", "dest": "dist/css/app.css" },
+    { "src": "node_modules/@angular/material/core/theming/prebuilt/pink-bluegrey.css", "dest": "dist/css/pink-bluegrey.css"}
   ],
   "universalRoutes": [
     "/"
